@@ -1,0 +1,122 @@
+Title: Account locked
+Keywords: account,  locked,  locking,  user,  credentials
+Date created: 10-03-2024
+Created by: Steven
+Date edited: None
+Edited by: None
+Times viewed: 0
+Text:
+
+If the user account is locked:
+1. Open Active Directory and unlock user account
+2. On the machine which locked them out, open credential manager and delete old credentials
+^
+Title: Account disabled
+Keywords: account,  disable,  disabled,  user,  credentials
+Date created: 10-03-2024
+Created by: Steven
+Date edited: Not yet edited
+Edited by: Not yet edited
+Times viewed: 0
+Text:
+
+If the user account is disabled:
+1. Check HR's records in order to understand why it's disabled.
+2. If a valid reason is not found, ask the manager to request it's enabled again.
+3. In Active Directory, open the user account and untick the "account disabled" flag.
+^
+Title: Blue screening
+Keywords: blue,  screening,  bsod
+Date created: 10-03-2024
+Created by: Steven
+Date edited: Not yet edited
+Edited by: Not yet edited
+Times viewed: 0
+Text:
+
+If the computer blue screens:
+1. Check the event log for errors
+2. Reseat or replace the RAM
+3. Open Command prompt and run SFC /scannow
+4. Reimage the computer
+^
+Title: Change name
+Keywords: name,  change,  account,  user
+Date created: 10-03-2024
+Created by: Steven
+Date edited: Not yet edited
+Edited by: Not yet edited
+Times viewed: 0
+Text:
+
+To change the name open the user's account on Active Directory.
+The userlogon name field is their username which they logon with. This can be changed.
+The user display name is what everyone sees their account name as.
+^
+Title: Computer performance issues
+Keywords: name,  change,  account,  user
+Date created: 10-03-2024
+Created by: Steven
+Date edited: Not yet edited
+Edited by: Not yet edited
+Times viewed: 0
+Text:
+
+To change the name open the user's account on Active Directory.
+The userlogon name field is their username which they logon with. This can be changed.
+The user display name is what everyone sees their account name as.
+^
+Title: User logon script
+Keywords: user,  logon,  script,  drives,  drive,  H drive,  home drive
+Date created: 10-03-2024
+Created by: Steven
+Date edited: Not yet edited
+Edited by: Not yet edited
+Times viewed: 0
+Text:
+
+To change the user logon script, open the user's account on Active Directory.
+Go to the profile tab and the logon script will be there - this will map all drives except the H drive.
+The home drive is also visible within the profile tab. This can be changed when needed.
+^
+Title: Whitelist a MAC address
+Keywords: MAC,  address,  whitelist,  wifi,  network,  blacklist,  SSID
+Date created: 10-03-2024
+Created by: Steven
+Date edited: Not yet edited
+Edited by: Not yet edited
+Times viewed: 0
+Text:
+
+Certain SSIDs are locked down and only certain devices are allowed access to these SSIDs.
+Firstly, go to the SSID on the wifi system, then Whitelist the MAC address of the device.
+Second, on the device enter the password for the SSID.
+^
+Title: Website inaccessible
+Keywords: website,  internet,  webpage,  network
+Date created: 10-03-2024
+Created by: Steven
+Date edited: Not yet edited
+Edited by: Not yet edited
+Times viewed: 0
+Text:
+
+If a website is inaccessible:
+1. Try to access it on a non-domain device, such as mobile phone to work out if it's their issue or ours
+If the issue in on our side
+1. Try clearing the cache
+2. Try turning the proxy off
+3. Use the ping command to see if the traffic is reaching the destination
+4. Use the tracert command to see which network route it is taking.
+^
+Title: Test title
+Keywords: test,  testing
+Date created: 17-03-2024 15:14:06
+Created by: None
+Date edited: None
+Edited by: None
+Times viewed: 0
+Text:
+
+Test text
+^
